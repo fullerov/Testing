@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/* Стиль основного блока сайта */
+#site{ width:90%; max-width:1020px; min-width:1020px; margin:0 auto; }
+
+/* Стиль формы регистрации */
+#reg_form table{ margin-bottom:20px; margin-left:125px; }
+#reg_form p{ font-weight:bold; margin-bottom:-22px;}
+
+/* Стиль изображений */
+img{ border:none; max-height:1200px; max-width:1200px;}
+
+/* Стиль полей ввода */
+.input_text{ background-color:#FFF; border:none;  margin-left:3px; font-family: Tahoma, Geneva, sans-serif; font-size:14px; color:#BFBFBF; font-weight:900;}
+
+/*Стиль ссылки копирайта*/
+#copy_link{ text-decoration:none; color:#FFF;font-size:14px; font-weight:bold; font-family: Arial, Helvetica, sans-serif; margin-right:-160px; }
+#copy_link:hover{ font-size:15px;}
+#footer img{ margin-bottom:-35px;}
+/* Стили элементов блока авторизиции */
+#auth{ cursor:pointer; color:#FFF; font-style:normal;background-color:#E2E2E2; font-weight:bold; border:none; margin-right:70px;}
+#profile{ cursor:pointer; color:#FFF; font-style:normal;background-color:#E2E2E2; font-weight:bold; border:none; margin-right:70px;}
+#auth_block{ visibility:hidden; width:200px; height:0px;}
+#profile_block{ visibility:hidden; width:200px; height:0px;}
+#profile_link{ background-color:transparent; border:none; color:#DDD; text-decoration:none; font-weight:bolder; margin-left:16px;}
+#profile_link:hover { background-color:#F0F0F0; border:none; color:#BBB; text-decoration:none; font-weight:bolder; margin-left:15px;}
+#auth_block label{ font-family: Tahoma, Geneva, sans-serif; font-size:11px; font-weight:900; margin-left:3px; color:#CDCDCD;}
+#auth_button{ margin-top:3px; background-color:transparent; border:thin; font-weight:700; color:#DADADA; margin-left:50px; cursor:pointer;}
+#auth_button:hover {color:#FFF; background-color:#E2E2E2;}
+#reg_button{ text-decoration:none;  background-color:transparent; border:thin; font-weight:700; color:#DDD; margin-left:25px; cursor:pointer; font-style:italic;}
+#reg_button:hover {color:#FFF; background-color:#E2E2E2; font-style:normal;}
+
+/* Стили элементов верхнего колонтикула */
+#top_menu { padding-top:5px; padding-bottom:5px; }
+#top_menu a{ background-color: #F9F9F9; text-decoration:none; cursor:pointer; font-family: "Courier New", Courier, monospace; font-size:18px; font-weight:900; color:#E5E5E5; font-style:normal;  }
+#top_menu a:hover {color:#FFF; font-style:normal; background-color:#E2E2E2;}
+
+/* Стили бокового меню */
+#left{float:left; width:200px; background-image:url(img/left_menu.png); height:auto;}
+#left_menu{ width:200px; height:auto; margin-top:-18px;}
+#left_menu p a{ background-color:transparent; text-decoration:none; cursor:pointer; font-family: "Courier New", Courier, monospace; font-size:15px; font-weight:600; color:#CFCFCF; font-style:normal; margin-left:-4px; padding-left:1px; padding-right:1px; padding-top:1px; }
+#left_menu p a:hover { background-repeat:no-repeat; font-size:15.5px;  background-image:url(img/menu_list_arrow.png); color:#D2D2D2; background-color:#EEE;}
+#arrow_img { margin-right:10px; }
+#arrow_img:hover { visibility:hidden;}
+
+/* Стиль блока контента */
+table { border:none;}
+table th{ color:gray; font-size:13px;}
+table tr{ border-color:#F6F6F6;}
+#content{ padding-left:5px; color:#3E3E3E; background-color:#FFF; margin-left:201px; margin-top:2px; margin-bottom:2px; font-family:Tahoma, Geneva, sans-serif; font-size:14px; border:none; height:auto;}
+#content p{background-color:#FFF; color:#3E3E3E; font-family:Tahoma, Geneva, sans-serif; }
+#error_txt{ font-weight:bold; color:darkred; text-decoration:none; text-align:center;}
+
+#list_txt{ font-family:Tahoma, Geneva, sans-serif; font-size:13px; padding-bottom:20px; color:#666;}
+#content table td a{ color:#CCC; font-family:Tahoma, Geneva, sans-serif; font-size:18px;margin-left:5px; text-decoration:none;}
+#content table td a:hover { text-decoration:underline; color:#999;}
+#content table td img{ margin:2px;}
+#content table td p{ float:right; font-style:italic; font-size:13px; color:#BBB}
+#content table td p a{ color:#D5D5D5; font-size:14px; font-weight:bold; text-decoration:none;}
+#content table td p a:hover{text-decoration:none; color:#A8A8A8;}
+#content h1{ font-size:18px; text-align:center; color:#888;}
+#art_about_left { font-style:italic; float:left; margin:10px; padding-bottom:30px; color:#777; font-size:12px;}
+#art_about_left a{ font-style:normal; text-decoration:none; color:#AAA; font-weight:bold; font-size:12px; margin-left:2px; margin-right:2px;}
+#art_about_left a:hover { color:#666666;}
+#art_about_right { font-style:italic; float:right; margin:10px; padding-bottom:30px; font-weight:bold; color:#BABABA; font-size:12px;}
+#profile_login{ text-align:center; cursor:default; color:#F1F1F1;font-weight:bold; font-size:25px;}
+#profile_login:hover{ color:#AAA;}
+#create_guest{ font-size:15px; color:#f55; font-weight:bold;}
+#create_guest a{ color:#990033;}
+#create_guest a:hover {text-decoration:none; color:#345690;}
+#content{ height:auto; min-height:400px; cursor:default;}
+#content a{ cursor:pointer; color:#999999; text-decoration:none;}
+#content a:hover{ color:#666; text-decoration:underline;}
+#content label{ color:#999999; font-size:14px; font-weight:normal; }
+#content input, textarea, select{ color:#666; margin:4px;}
+#content input:hover, textarea:hover, select:hover{ color:black;}
+#content h3{ font-size:17px; font-weight:bold; color:#666; cursor:default;}
+#content form{ margin-bottom:50px;}
+#content h2{ margin-bottom:-5px;}
+#content h2 a{ color:#999999; text-decoration:none; font-size:18px; margin-left:150px; cursor:pointer; } 
+#content h2 a:hover{ color:#BBB; text-decoration:underline;}
+#content h4{color:#999; font-size:14px; margin-bottom:-15px;}
+#content h4 a{color:#CCC; font-size:14px; text-decoration:none;}
+#content h4 a:hover{color:#219; font-size:14px; text-decoration:underline;}
+#content h6{ color:#DDD; font-size:12px;}
+#content h6:hover{ color:#999;}
+#content h6 a{ color:#BBB; text-decoration:none; font-size:12px;}
+#content h6 a:hover{ color:#777; text-decoration:underline;}
+#content h5{ text-align:left; color:#CCC;}
+#content h5:hover{ color:#999;}
+#add_button{ padding-left:280px; text-align:center; }
+#add_test_error {color:#f55; font-size:15px; font-weight:bold; cursor:default;}
+#add_test_error a{ text-decoration:none; color:#009; }
+#add_test_error a:hover { color:#0000CC; text-decoration:underline; }
+#vars input{ border-bottom:ridge; border-right:none; border-top:none; border-left:none;}
+#num_answer{ color:#999999; margin-left:25px;}
+#question_label{ margin-left:165px;}
+#create_test_button input{ color:#BBB; border:none; font-weight:bold; background-color:#EEE; cursor:pointer; margin-left:200px; font-size:14px;}
+#create_test_button input:hover{ color:#666666; background-color:#DDD;}
+#back_link a{ color:darkgray; margin-left:30px; margin-top:30px; font-weight:bold; text-decoration:none; }
+#back_link a:hover{ color:darkblue; cursor:pointer;}
+.execute_test a{ color:#D5D5D5; text-decoration:none; cursor:pointer;}
+.execute_test a:hover{ text-decoration:underline; color:#888;}
+.execute_test h5{ float:right; margin-right:30px; color:#AAA;}
+.execute_test h3 a{ color:darkgray; font-style:normal; font-size:17px; text-decoration:none; margin-left:35px;}
+.select_answ{ margin-left:10px; margin-bottom:20px; }
+hr{ border-color:#EEE; border-style:dashed; }
+#done input{ margin-left:360px; cursor:pointer; text-align:center; }
+#article_buttons{ float:right; margin-top:-80px; margin-right:330px;  text-align:center;}
+form a{ color:#999999; text-decoration:none; font-weight:bold; margin-top:20px;}
+form a:hover{ color:#C6C6C6;}
+#h5_article{ padding-left:90px;}
+#comments h4{ padding-left:0px; padding-top:80px; padding-bottom:10px;}
+form #spoiler{ visibility:hidden; max-height:0px; margin-left:50px; margin-bottom:10px;}
+form #pspoiler{ font-size:15px; font-weight:bold; color:#999; cursor:pointer; }
+form #spoiler2{ visibility:hidden; max-height:0px; margin-left:50px; margin-bottom:10px;}
+form #pspoiler2{ font-size:15px; font-weight:bold; color:#999; cursor:pointer; }
+form #spoiler3{ visibility:hidden; max-height:0px; margin-left:50px; margin-bottom:10px;}
+form #pspoiler3{ font-size:15px; font-weight:bold; color:#999; cursor:pointer; }
+form #spoiler4{ visibility:hidden; max-height:0px; margin-left:50px; margin-bottom:10px;}
+form #pspoiler4{ font-size:15px; font-weight:bold; color:#999; cursor:pointer; }
+#add_faculty, #add_group, #addlesson{ cursor:pointer;}
+#add_faculty:hover, #add_group:hover, #addlesson:hover{ text-decoration:underline;}
+#add_school:hover{ text-decoration:underline; color:#666; cursor:pointer;}
+#add_class:hover, #add_lesson:hover{ cursor:pointer; text-decoration:underline;}
+#testmark input{ cursor:pointer; font-weight:bold;}
+#addcommentbutton{ cursor:pointer;}
+#right_count{ float:right; margin-right:25px; font-size:16px;}
+/* Скрытие элементов формы ввода*/
+#city{ visibility:hidden; margin-top:-40px;}
+#label_city{ visibility:hidden; margin-top:-30px; padding-bottom:4px; font-size:13px;}
+#label_school{visibility:hidden;}
+#school{visibility:hidden;}
+#label_class{visibility:hidden;}
+#class{visibility:hidden;}
+#addbutton{visibility:hidden;}
+#label_faculty{visibility:hidden;}
+#faculty{visibility:hidden;}
+#univer{ visibility:hidden;}
+#label_univer{ visibility:hidden;}
+#course{ visibility:hidden;}
+#label_course{ visibility:hidden;}
+#specialty{ visibility:hidden;}
+#label_specialty{ visibility:hidden;}
+#group{ visibility:hidden;}
+#label_group{ visibility:hidden;}
+#label_lessons{ visibility:hidden;}
+#lessons{ visibility:hidden;}
+#label_lesson, #label_lessonsx{ visibility:hidden;}
+#lesson, #lessonsx{ visibility:hidden;}
+#create_test_button_appear input{ color:#BBB; border:none; font-weight:bold; background-color:#EEE; cursor:pointer; margin-left:200px; font-size:14px; visibility:hidden;}
+#create_test_button_appear input:hover{ color:#666666; background-color:#DDD;}
+#create_test_button_appear2 input{ color:#BBB; border:none; font-weight:bold; background-color:#EEE; cursor:pointer; margin-left:200px; font-size:14px; visibility:hidden;}
+#create_test_button_appear2 input:hover{ color:#666666; background-color:#DDD;}
+/* Стиль сообщений об ошибке */
+#err_rep{ font-weight:bold; color:#8C0000;}
+
