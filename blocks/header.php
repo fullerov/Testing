@@ -1,0 +1,1 @@
+<div align="center" id="header"><a href="/" title="На главную страницу"><img src="http://<? echo $_SERVER['HTTP_HOST'];?>/css/img/header.png" /></a></div>
